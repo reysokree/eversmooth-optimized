@@ -1,0 +1,75 @@
+name: Feature Request
+description: Suggest a new feature or improvement for EverSmooth Optimized.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve EverSmooth Optimized!
+        Describe your suggestion clearly so we can evaluate it.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: Describe the problem or limitation this suggestion would address.
+      placeholder: I'm experiencing...
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature or improvement you would like.
+      placeholder: I would like to see...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature Category
+      description: Which area does your suggestion relate to?
+      options:
+        - Performance Optimization
+        - Quality of Life
+        - Mod Addition
+        - Resource Pack Addition
+        - Shader Addition
+        - Compatibility
+        - Configuration
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions?
+      placeholder: Describe possible alternatives...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include relevant links, screenshots, examples, or other context.
+      placeholder: Additional details...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked existing issues for similar suggestions.
+          required: true
+        - label: This suggestion is relevant to EverSmooth Optimized.
+          required: true

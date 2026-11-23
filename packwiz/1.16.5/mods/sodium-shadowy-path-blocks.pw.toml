@@ -1,0 +1,13 @@
+name = "Sodium Shadowy Path Blocks (SSPB)"
+filename = "sodium-shadowy-path-blocks-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EIa1eiMm/versions/1.0.0/sodium-shadowy-path-blocks-1.0.0.jar"
+hash-format = "sha512"
+hash = "e7562e4c11fcb3b4f1923296a98551999943df18717d04a6735ff755fa65fcf639617a63dd3f0d36cc0d45afd14874f2eb5be9aaade3a624b7aa0c6ff1d5e55b"
+
+[update]
+[update.modrinth]
+mod-id = "EIa1eiMm"
+version = "iQr9EvfW"

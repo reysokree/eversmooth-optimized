@@ -1,0 +1,13 @@
+name = "Durability Plus"
+filename = "durabilityplus_1.16.5-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/na1dL51S/versions/JMCoXnIO/durabilityplus_1.16.5-1.0.3.jar"
+hash-format = "sha512"
+hash = "5c9f9ee904db49e9670955c429f4e2b13353feef918861059ef0e5b405ae8931bb69ff3455386a98c7cfbf11cfb95442641bf0a40a5f5362adbc1b188ad55a44"
+
+[update]
+[update.modrinth]
+mod-id = "na1dL51S"
+version = "JMCoXnIO"

@@ -1,0 +1,13 @@
+name = "Programmer Art Fix"
+filename = "[1.16.x]ProgrammerArtFix-rv6.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/d1nRD7RG/versions/ZWvUyyxz/%5B1.16.x%5DProgrammerArtFix-rv6.zip"
+hash-format = "sha512"
+hash = "9bc34cca818ea7fac948fb0fd6f01cf76811d889f6c7dd38448994532c627f3386099733b4c23c75efdc5ef8df1aaee5ad17c913b4c982b505314be8255e1a8c"
+
+[update]
+[update.modrinth]
+mod-id = "d1nRD7RG"
+version = "ZWvUyyxz"

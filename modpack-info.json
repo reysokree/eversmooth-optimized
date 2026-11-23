@@ -1,0 +1,47 @@
+{
+    "schemaVersion": 1,
+    "id": "eversmooth-optimized",
+    "name": "EverSmooth Optimized",
+    "description": "A carefully curated Minecraft modpack focused on performance, stability, and an optimized gameplay experience.",
+    "version": "0.1.0-alpha.1",
+    "status": "released",
+    "author": {
+        "name": "ReysoKree",
+        "username": "ReysoKree"
+    },
+    "minecraft": {
+        "versions": [
+            "1.16.5"
+        ],
+        "loaders": [
+            "Fabric"
+        ]
+    },
+    "categories": [
+        "optimization",
+        "performance",
+        "quality-of-life"
+    ],
+    "features": [
+        "Performance optimization",
+        "Stability improvements",
+        "Quality-of-life enhancements"
+    ],
+    "platforms": {
+        "curseforge": {
+            "enabled": true
+        },
+        "modrinth": {
+            "enabled": true
+        },
+        "multimc": {
+            "enabled": true
+        }
+    },
+    "repository": {
+        "type": "git",
+        "branch": "main"
+    },
+    "license": "All Rights Reserved",
+    "copyright": "Copyright (c) 2026 ReysoKree"
+}

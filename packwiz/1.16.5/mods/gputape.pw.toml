@@ -1,0 +1,13 @@
+name = "GPUBooster"
+filename = "GpuTape-1.16x-1.17x-1.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5CTSrY8X/versions/k3YT2628/GpuTape-1.16x-1.17x-1.0.4.jar"
+hash-format = "sha512"
+hash = "1f3b827724c3ddd6934c08126b16b654e673a8828054cd5123b25d3286357a99011a74b7b4df7689f8c48c962b9ab33adc38935a252d0172410beeeccf1181fc"
+
+[update]
+[update.modrinth]
+mod-id = "5CTSrY8X"
+version = "k3YT2628"

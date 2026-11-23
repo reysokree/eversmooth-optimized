@@ -1,0 +1,13 @@
+name = "ScalableLux Backport"
+filename = "ScalableLux-0.2.0+fabric.1bb4a18.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c4k1FXur/versions/m9Iy0hP2/ScalableLux-0.2.0%2Bfabric.1bb4a18.jar"
+hash-format = "sha512"
+hash = "6f63d4cff0409cd0401688a79c7c7181528740951bbecfa31daf1490780be2e093a085ca8029adaf6bf0c78996c9ce63e93df310ce20c1cf17376d4d83441ea3"
+
+[update]
+[update.modrinth]
+mod-id = "c4k1FXur"
+version = "m9Iy0hP2"

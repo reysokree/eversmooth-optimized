@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Modpack Discussions
+    url: https://github.com/FlareGrid/eversmooth-optimized/discussions
+    about: Ask questions, share ideas, and discuss EverSmooth Optimized.
+
+  - name: Modpack Releases
+    url: https://github.com/FlareGrid/eversmooth-optimized/releases
+    about: Browse available releases and release notes.

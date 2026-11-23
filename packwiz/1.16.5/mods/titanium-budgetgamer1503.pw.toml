@@ -1,0 +1,13 @@
+name = "Titanium"
+filename = "Titanium-mc1.16.5-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/j14zbnyL/versions/y7XHKgJ7/Titanium-mc1.16.5-1.1.0.jar"
+hash-format = "sha512"
+hash = "951a2690e64e691cac61dd73a11953cbe96ff7e8074b25f3468f85154db01578cfbbfe6c3170923138c9797868db3f3d431275d191e04988478683c70e0cd8ab"
+
+[update]
+[update.modrinth]
+mod-id = "j14zbnyL"
+version = "y7XHKgJ7"

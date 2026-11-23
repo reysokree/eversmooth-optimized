@@ -1,0 +1,73 @@
+# ==========================================
+# Default Text Handling
+# ==========================================
+
+* text=auto
+
+# ==========================================
+# Text Files
+# ==========================================
+
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+*.mcmeta text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.editorconfig text eol=lf
+
+# ==========================================
+# Windows-Specific Files
+# ==========================================
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# ==========================================
+# Binary Files
+# ==========================================
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.jar binary
+*.zip binary
+*.mrpack binary
+*.class binary
+*.dll binary
+*.exe binary
+
+# ==========================================
+# GitHub Workflows
+# ==========================================
+
+.github/workflows/* text eol=lf
+
+# ==========================================
+# Packwiz Configuration
+# ==========================================
+
+packwiz/** text eol=lf
+
+# ==========================================
+# Documentation
+# ==========================================
+
+README.md text eol=lf
+CHANGELOG.md text eol=lf
+LICENSE text eol=lf
+CODE_OF_CONDUCT.md text eol=lf
+CONTRIBUTING.md text eol=lf

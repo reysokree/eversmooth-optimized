@@ -1,0 +1,13 @@
+name = "ImmediatelyFast Backport"
+filename = "immediatelyfast-1.16.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hDXyEfJT/versions/M586EXfS/immediatelyfast-1.16.5.jar"
+hash-format = "sha512"
+hash = "4b46110757eff71010431ed712daa5a290ad17a4f27ab8361fa515a4a5ad9d1582ec6d386514a9ff37d43622136e86a0d4acce80f46e142d4369f8a0b88908b2"
+
+[update]
+[update.modrinth]
+mod-id = "hDXyEfJT"
+version = "M586EXfS"

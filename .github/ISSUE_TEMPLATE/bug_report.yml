@@ -1,0 +1,126 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in EverSmooth Optimized.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug!
+        Please provide as much relevant information as possible.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clearly describe the problem you encountered.
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Explain how the issue can be reproduced.
+      placeholder: |
+        1. Launch the modpack.
+        2. Open a world.
+        3. Perform an action.
+        4. Observe the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: Describe the expected behavior...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What happened instead?
+      placeholder: Describe what actually happened...
+    validations:
+      required: true
+
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: Which EverSmooth Optimized release are you using?
+      placeholder: "0.1.0-alpha.1"
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: Minecraft Version
+      placeholder: "1.16.5"
+    validations:
+      required: true
+
+  - type: input
+    id: loader
+    attributes:
+      label: Mod Loader and Version
+      placeholder: "Fabric 0.20.1"
+    validations:
+      required: true
+
+  - type: input
+    id: launcher
+    attributes:
+      label: Minecraft Launcher
+      description: Which launcher are you using?
+      placeholder: "Prism Launcher, MultiMC, etc."
+    validations:
+      required: true
+
+  - type: input
+    id: java-version
+    attributes:
+      label: Java Version
+      placeholder: "Java 8 / Java 17 / Java 21"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Crash Reports
+      description: |
+        Attach relevant logs or crash reports.
+        Remove personal information before sharing.
+      placeholder: Paste relevant logs or provide a link...
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add screenshots, videos, or any other relevant details.
+      placeholder: Additional context...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues for similar reports.
+          required: true
+        - label: I am using an official EverSmooth Optimized release.
+          required: true
+        - label: I have provided accurate information.
+          required: true

@@ -1,0 +1,104 @@
+# ==========================================
+# Operating System
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ==========================================
+# Editors and IDEs
+# ==========================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Temporary and Backup Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.backup
+*.log
+
+# ==========================================
+# Archives and Build Artifacts
+# ==========================================
+
+*.zip
+*.mrpack
+*.jar
+*.class
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Packwiz
+# ==========================================
+
+# Local Packwiz cache
+.packwiz-cache/
+
+# ==========================================
+# Environment and Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+
+.cache/
+.cache-loader/

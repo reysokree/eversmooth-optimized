@@ -1,0 +1,13 @@
+name = "EverSmooth Optimized"
+author = "ReysoKree"
+version = "0.1.0-alpha.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "364153ee9280229ca3eca96294b382afe7b76b89f1a8f738255451435ef8554c"
+
+[versions]
+fabric = "0.20.1"
+minecraft = "1.16.5"
