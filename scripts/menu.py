@@ -77,6 +77,7 @@ def print_header():
 
 def print_menu():
     sections = {
+        "For Help": ["H"],
         "PROJECT TOOLS": ["1", "2", "7", "8"],
         "RELEASE TOOLS": ["3", "4", "5", "9"],
         "MAINTENANCE TOOLS": ["6", "10"],

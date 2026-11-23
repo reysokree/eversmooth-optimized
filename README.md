@@ -30,6 +30,7 @@ EverSmooth Optimized is a Minecraft modpack focused on improving game performanc
 - Python-based project management and automation tools
 - Release metadata validation and synchronization
 - Automated release reports, changelogs, and backups
+- Multiple distribution and installation options
 
 ## Included Content
 
@@ -41,9 +42,20 @@ Explore the included content for this release:
 
 ## Installation
 
-1. Download the modpack from an available distribution platform.
-2. Import the downloaded modpack into a compatible launcher.
-3. Install and launch the required Minecraft version.
+You can get EverSmooth Optimized through any of the following methods:
+
+1. **Modrinth:** Download the modpack from its Modrinth project page.
+2. **CurseForge:** Download the modpack from its CurseForge project page.
+3. **GitHub Releases:** Download a published release archive directly from the GitHub repository.
+4. **Build Your Own:** Clone the repository and create a fresh modpack export using the included Packwiz source files and project tools.
+
+After obtaining the modpack:
+
+1. Import it into a compatible Minecraft launcher.
+2. Ensure the required Minecraft version and Fabric Loader are installed.
+3. Launch Minecraft and enjoy EverSmooth Optimized.
+
+For manual installation, you can also use the Handloom export, which provides the mod and resource pack files in their respective folders.
 
 ## Project Tools
 
