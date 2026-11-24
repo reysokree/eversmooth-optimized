@@ -55,8 +55,6 @@ $RECYCLE.BIN/
 # Archives and Build Artifacts
 # ==========================================
 
-*.zip
-*.mrpack
 *.jar
 *.class
 
