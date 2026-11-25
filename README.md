@@ -1,34 +1,31 @@
- <div align="center">
+<div align=center>
+  <img src="assets/images/banner.png" alt="EverSmooth Optimized Banner" width="100%">
 
-<img src="assets/images/banner.png" alt="EverSmooth Optimized Banner" width="100%">
+  <br>
 
-<br>
+  # EverSmooth Optimized
 
-<img src="assets/images/logo.png" alt="EverSmooth Optimized Logo" width="100">
+  ### A smoother Minecraft experience.
 
-# EverSmooth Optimized
+  A performance-focused Minecraft modpack designed to improve game performance, enhance visual presentation, and provide useful quality-of-life improvements while preserving the familiar Minecraft experience.
 
-### A smoother Minecraft experience.
+  <br>
 
-A performance-focused Minecraft modpack designed to improve game performance, enhance visual presentation, and provide useful quality-of-life improvements while preserving the familiar Minecraft experience.
+  [![Support and Contribute][img-sac]](CONTRIBUTING.md)
+  [![Read the Wiki][img-rtw]](https://eversmooth-optimized-wiki.vercel.app)
 
-<br>
+  <br>
 
-[![Support and Contribute](https://img.shields.io/badge/Support_and_Contribute-181717?style=for-the-badge&logo=github&logoColor=white)](CONTRIBUTING.md)
-[![Read the Wiki](https://img.shields.io/badge/Read_the_Wiki-5865F2?style=for-the-badge&logo=gitbook&logoColor=white)](https://eversmooth-optimized-wiki.vercel.app)
+  [![Mod List][img-mods]](content/mods.md)
+  [![Resource Packs][img-rp]](content/resourcepacks.md)
+  [![Shaders][img-shaders]](content/shaders.md)
 
-<br>
+  <br>
 
-[![Mod List](https://img.shields.io/badge/Mod_List-2D6A4F?style=for-the-badge&logo=modrinth&logoColor=white)](content/mods.md)
-[![Resource Packs](https://img.shields.io/badge/Resource_Packs-7B2CBF?style=for-the-badge&logo=minecraft&logoColor=white)](content/resourcepacks.md)
-[![Shaders](https://img.shields.io/badge/Shaders-4361EE?style=for-the-badge&logo=opengl&logoColor=white)](content/shaders.md)
+  [![GitHub][img-github]](https://github.com/reysokree/eversmooth-optimized)
+  [![Installation Guide][img-installation]](https://eversmooth-optimized-wiki.vercel.app)
 
-<br>
-
-[![Installation Guide](https://img.shields.io/badge/Installation_Guide-303030?style=for-the-badge&logo=readthedocs&logoColor=white)](https://eversmooth-optimized-wiki.vercel.app)
-
-<br>
-
+  <br>
 </div>
 
 ---
@@ -80,7 +77,7 @@ Whether you're looking for a smoother Minecraft experience or exploring how the 
 | **Automation** | Python |
 | **Maintainer** | [ReysoKree](https://github.com/ReysoKree) |
 | **Documentation** | [EverSmooth Optimized Wiki](https://eversmooth-optimized-wiki.vercel.app) |
-| **License** | Custom License |
+| **License** | [Custom License (ARR)](LICENSE) |
 
 ## Features
 
@@ -154,8 +151,9 @@ EverSmooth Optimized supports multiple distribution methods.
 
 | Platform | Description |
 |:---|:---|
-| **Modrinth** | Download the published modpack distribution. |
+| **Modrinth** | Download the modpack through Modrinth. |
 | **CurseForge** | Download the modpack through CurseForge. |
+| **Handloom (Manual)** | Download the Handloom export for mual installation. |
 | **GitHub Releases** | Access published release archives and release information. |
 
 ### Download Options
@@ -164,6 +162,7 @@ Choose the distribution method that works best for your Minecraft launcher.
 
 - **Modrinth:** Recommended when using a compatible Modrinth-supported launcher.
 - **CurseForge:** Use the CurseForge distribution with a compatible launcher.
+- **Handloom (Manual):** Download the Handloom export for manual installation.
 - **GitHub Releases:** Download the available release archive directly.
 - **Source Repository:** Build a fresh modpack export using the included project files and automation tools.
 
@@ -207,6 +206,7 @@ The export organizes the available content into its respective directories, incl
 
 - `mods/` — Minecraft modifications.
 - `resourcepacks/` — Resource packs.
+- `shaders/` — Shaders.
 
 To install manually:
 
@@ -305,7 +305,7 @@ The project uses versioned information to help organize:
 Release archives follow the project's structured naming convention:
 
 ```text
-ESO+<Minecraft-Version>+<Fabric-Loader-Version>+<Modpack-Version>
+ESO+<Minecraft-Version>+Fabric-<Fabric-Loader-Version>+<Modpack-Version>
 ```
 
 Example:
@@ -436,8 +436,25 @@ Made with care for the Minecraft community.
 
 <br>
 
-[![Maintained by ReysoKree](https://img.shields.io/badge/Maintained%20by-ReysoKree-7B2CBF?style=flat-square)](https://github.com/ReysoKree)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5-3C8527?style=flat-square&logo=minecraft&logoColor=white)
-![Fabric](https://img.shields.io/badge/Loader-Fabric-DBB58F?style=flat-square)
+[![Maintained by ReysoKree][img-maintainer]](https://github.com/ReysoKree)
+![Minecraft][img-minecraft]
+![Fabric][img-loader]
 
 </div>
+
+
+<!-- Metadata -->
+
+[img-sac]: <https://img.shields.io/badge/Support_and_Contribute-181717?style=for-the-badge&logo=github&logoColor=white>
+[img-rtw]: <https://img.shields.io/badge/Read_the_Wiki-5865F2?style=for-the-badge&logo=gitbook&logoColor=white>
+
+[img-mods]:<https://img.shields.io/badge/Mod_list-darkgreen?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik0yODAtNjAwdi04MGg1NjB2ODBIMjgwWm0wIDE2MHYtODBoNTYwdjgwSDI4MFptMCAxNjB2LTgwaDU2MHY4MEgyODBaTTE2MC02MDBxLTE3IDAtMjguNS0xMS41VDEyMC02NDBxMC0xNyAxMS41LTI4LjVUMTYwLTY4MHExNyAwIDI4LjUgMTEuNVQyMDAtNjQwcTAgMTctMTEuNSAyOC41VDE2MC02MDBabTAgMTYwcS0xNyAwLTI4LjUtMTEuNVQxMjAtNDgwcTAtMTcgMTEuNS0yOC41VDE2MC01MjBxMTcgMCAyOC41IDExLjVUMjAwLTQ4MHEwIDE3LTExLjUgMjguNVQxNjAtNDQwWm0wIDE2MHEtMTcgMC0yOC41LTExLjVUMTIwLTMyMHEwLTE3IDExLjUtMjguNVQxNjAtMzYwcTE3IDAgMjguNSAxMS41VDIwMC0zMjBxMCAxNy0xMS41IDI4LjVUMTYwLTI4MFoiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4%3D>
+[img-rp]: <https://img.shields.io/badge/Resource_Packs-purple?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Im0zNTItNTIyIDg2LTg3LTU2LTU3LTQ0IDQ0LTU2LTU2IDQzLTQ0LTQ1LTQ1LTg3IDg3IDE1OSAxNThabTMyOCAzMjkgODctODctNDUtNDUtNDQgNDMtNTYtNTYgNDMtNDQtNTctNTYtODYgODYgMTU4IDE1OVptMjQtNTY3IDU3IDU3LTU3LTU3Wk0yOTAtMTIwSDEyMHYtMTcwbDE3NS0xNzVMODAtNjgwbDIwMC0yMDAgMjE2IDIxNiAxNTEtMTUycTEyLTEyIDI3LTE4dDMxLTZxMTYgMCAzMSA2dDI3IDE4bDUzIDU0cTEyIDEyIDE4IDI3dDYgMzFxMCAxNi02IDMwLjVUODE2LTY0N0w2NjUtNDk1bDIxNSAyMTVMNjgwLTgwIDQ2NS0yOTUgMjkwLTEyMFptLTkwLTgwaDU2bDM5Mi0zOTEtNTctNTctMzkxIDM5MnY1NlptNDIwLTQxOS0yOS0yOSA1NyA1Ny0yOC0yOFoiIGZpbGw9IiNmZmZmZmYiLz48L3N2Zz4%3D>
+[img-shaders]: <https://img.shields.io/badge/Shaders-4361EE?style=for-the-badge&logo=opengl&logoColor=white>
+
+[img-github]: <https://img.shields.io/github/stars/reysokree/eversmooth-optimized?style=for-the-badge&label=Stars&color=white&logoColor=white&labelColor=black&logo=github>
+[img-installation]: <https://img.shields.io/badge/Installation_Guide-303030?style=for-the-badge&logo=readthedocs&logoColor=white>
+
+[img-maintainer]: <https://img.shields.io/badge/Maintained%20by-ReysoKree-7B2CBF?style=flat-square>
+[img-minecraft]: <https://img.shields.io/badge/Minecraft-1.16.5-3C8527?style=flat-square&logo=minecraft&logoColor=white>
+[img-loader]: <https://img.shields.io/badge/Loader-Fabric-DBB58F?style=flat-square>
